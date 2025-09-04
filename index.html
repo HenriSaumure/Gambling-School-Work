@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBox Elite - Marketplace de Devoirs Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-graduation-cap"></i>
+                <span>DevBox Elite</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#accueil" class="nav-link active">Accueil</a>
+                <a href="#lootboxes" class="nav-link">Loot Boxes</a>
+                <a href="#marketplace" class="nav-link">Marketplace</a>
+                <a href="#inventaire" class="nav-link">Inventaire</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="user-actions">
+                <div class="balance">
+                    <i class="fas fa-coins"></i>
+                    <span>1,000.00 CAD$</span>
+                </div>
+                <button class="btn btn-primary">Connexion</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Découvrez l'Univers des Devoirs Premium</h1>
+                <p>Ouvrez des coffres exclusifs, collectionnez des devoirs de qualité et échangez sur notre marketplace sécurisé.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large">Commencer Maintenant</button>
+                    <button class="btn btn-secondary btn-large">Voir les Coffres</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="lootbox-showcase">
+                    <div class="lootbox-card featured">
+                        <div class="lootbox-glow"></div>
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Coffre Académique</h3>
+                        <span class="price">49.99 CAD$</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Loot Boxes -->
+    <section id="lootboxes" class="lootboxes-section">
+        <div class="container">
+            <h2>Coffres de Devoirs</h2>
+            <div class="lootboxes-grid">
+                <div class="lootbox-card">
+                    <div class="lootbox-image">
+                        <i class="fas fa-book"></i>
+                        <div class="rarity-badge common">Commun</div>
+                    </div>
+                    <h3>Coffre Étudiant</h3>
+                    <p>Devoirs de base pour toutes matières</p>
+                    <div class="price">9.99 CAD$</div>
+                    <button class="btn btn-primary">Ouvrir</button>
+                </div>
+                
+                <div class="lootbox-card">
+                    <div class="lootbox-image">
+                        <i class="fas fa-book-open"></i>
+                        <div class="rarity-badge rare">Rare</div>
+                    </div>
+                    <h3>Coffre Académique</h3>
+                    <p>Devoirs de qualité supérieure</p>
+                    <div class="price">24.99 CAD$</div>
+                    <button class="btn btn-primary">Ouvrir</button>
+                </div>
+                
+                <div class="lootbox-card">
+                    <div class="lootbox-image">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="rarity-badge legendary">Légendaire</div>
+                    </div>
+                    <h3>Coffre Universitaire</h3>
+                    <p>Devoirs d'excellence garantis</p>
+                    <div class="price">49.99 CAD$</div>
+                    <button class="btn btn-primary">Ouvrir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketplace -->
+    <section id="marketplace" class="marketplace-section">
+        <div class="container">
+            <h2>Marketplace</h2>
+            <div class="marketplace-filters">
+                <button class="filter-btn active">Tous</button>
+                <button class="filter-btn">Français</button>
+                <button class="filter-btn">Mathématiques</button>
+                <button class="filter-btn">Anglais</button>
+                <button class="filter-btn">Philosophie</button>
+                <button class="filter-btn">Sciences</button>
+            </div>
+            
+            <div class="marketplace-grid">
+                <div class="marketplace-item">
+                    <div class="item-image">
+                        <i class="fas fa-feather-alt"></i>
+                        <div class="rarity-badge legendary">Légendaire</div>
+                    </div>
+                    <h4>Dissertation sur Molière</h4>
+                    <div class="item-stats">
+                        <span class="stat">Note: A+</span>
+                        <span class="stat">Rareté: 0.5%</span>
+                    </div>
+                    <div class="item-price">
+                        <span class="current-price">125.00 CAD$</span>
+                        <span class="market-trend up">+5.2%</span>
+                    </div>
+                    <button class="btn btn-secondary">Acheter</button>
+                </div>
+                
+                <div class="marketplace-item">
+                    <div class="item-image">
+                        <i class="fas fa-calculator"></i>
+                        <div class="rarity-badge rare">Rare</div>
+                    </div>
+                    <h4>Exercices Calcul Intégral</h4>
+                    <div class="item-stats">
+                        <span class="stat">Note: B+</span>
+                        <span class="stat">Rareté: 2.1%</span>
+                    </div>
+                    <div class="item-price">
+                        <span class="current-price">45.00 CAD$</span>
+                        <span class="market-trend down">-1.8%</span>
+                    </div>
+                    <button class="btn btn-secondary">Acheter</button>
+                </div>
+                
+                <div class="marketplace-item">
+                    <div class="item-image">
+                        <i class="fas fa-brain"></i>
+                        <div class="rarity-badge epic">Épique</div>
+                    </div>
+                    <h4>Essai Philosophique Kant</h4>
+                    <div class="item-stats">
+                        <span class="stat">Note: A</span>
+                        <span class="stat">Rareté: 1.2%</span>
+                    </div>
+                    <div class="item-price">
+                        <span class="current-price">78.50 CAD$</span>
+                        <span class="market-trend up">+12.4%</span>
+                    </div>
+                    <button class="btn btn-secondary">Acheter</button>
+                </div>
+                
+                <div class="marketplace-item">
+                    <div class="item-image">
+                        <i class="fas fa-language"></i>
+                        <div class="rarity-badge common">Commun</div>
+                    </div>
+                    <h4>Exercices Grammaire</h4>
+                    <div class="item-stats">
+                        <span class="stat">Note: C+</span>
+                        <span class="stat">Rareté: 15.8%</span>
+                    </div>
+                    <div class="item-price">
+                        <span class="current-price">8.99 CAD$</span>
+                        <span class="market-trend neutral">0.0%</span>
+                    </div>
+                    <button class="btn btn-secondary">Acheter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>50,000+</h3>
+                    <p>Étudiants Actifs</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>2M+</h3>
+                    <p>Devoirs Complétés</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>500K+</h3>
+                    <p>Échanges Réalisés</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>10M+ CAD$</h3>
+                    <p>Volume d'Échanges</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DevBox Elite</h4>
+                    <p>La plateforme premium pour les étudiants en quête d'excellence académique.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Coffres de Devoirs</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Échanges</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="#">Conditions d'utilisation</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Jeu responsable</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Signaler un problème</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DevBox Elite. Tous droits réservés. | Destiné aux étudiants - Utilisez responsablement</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
